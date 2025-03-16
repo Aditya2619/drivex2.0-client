@@ -10,7 +10,7 @@ const port = process.env.PORT || 3001;
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: ['https://main.dlronecmuj8qf.amplifyapp.com', 'https://drivex2-0-server.onrender.com'],
   credentials: true
 }));
 
