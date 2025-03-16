@@ -1,5 +1,4 @@
 const { Client } = require("pg");
-postgresql://neondb_owner:npg_W3QCiEhgoSR6@ep-silent-term-a5lm1nop-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require
 const client = new Client({
   user: "neondb_owner",
   password: "npg_W3QCiEhgoSR6",
