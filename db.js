@@ -3,7 +3,7 @@ const client = new Client({
   user: "neondb_owner",
   password: "npg_W3QCiEhgoSR6",
   host: "ep-silent-term-a5lm1nop-pooler.us-east-2.aws.neon.tech",
-  database: "temp",
+  database: "neondb",
   port: 5432,
   ssl: {
     rejectUnauthorized: false,
